@@ -151,8 +151,6 @@ void ShiftRows() {
    temp = state[2][1];
    state[2][1] = state[2][3];
    state[2][3] = temp;
-
-   // Rotate third row 3 columns to left
    temp = state[3][0];
    state[3][0] = state[3][3];
    state[3][3] = state[3][2];
